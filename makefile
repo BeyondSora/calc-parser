@@ -9,6 +9,6 @@ ${EXEC} : ${OBJECTS}
 		${CXX} ${CXXFLAGS} ${OBJECTS} -o ${EXEC}
 
 clean :
-		rm -rf ${DEPENDS} ${OBJECTS} ${EXEC}
+		rm -rf ${DEPENDS} ${OBJECTS} ${EXEC} ${EXEC}.exe
 
 -include ${DEPENDS}
