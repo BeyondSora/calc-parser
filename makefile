@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -pedantic -MMD -I lib
+CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic -MMD -I lib
 
 OBJECTS = calc_parse.o parser_combinator/parser_combinator.o
 DEPENDS = ${OBJECTS:.o=.d}
