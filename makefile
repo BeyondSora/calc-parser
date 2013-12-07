@@ -60,7 +60,8 @@
 MY_CFLAGS = -std=c++11
 
 # The include directory path.
-MY_INCLUDE = -I"C:\Dev\lib\ftl\include"
+#MY_INCLUDE = -I"C:\Dev\lib\ftl\include"
+MY_INCLUDE = -I"./lib/"
 
 # The linker options.
 MY_LIBS   =
